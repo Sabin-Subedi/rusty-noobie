@@ -82,6 +82,6 @@ fn main() {
 
     // array
     let e: [i32; 5] = [1, 2, 3, 4, 5];
-    let firstElement = e[0];
-    println!("this is data from array e: {firstElement}");
+    let first_element: i32 = e[0];
+    println!("this is data from array e: {first_element}");
 }
