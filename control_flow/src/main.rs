@@ -1,3 +1,5 @@
+mod loops;
+
 fn main() {
     println!("Hello, world!");
     let number = 3;
@@ -21,4 +23,6 @@ fn main() {
     let number = if number <= 3 { 6 } else { 3 };
 
     println!("The value of number is: {number}");
+
+    loops::loops();
 }
